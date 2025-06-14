@@ -1,0 +1,342 @@
+[0.393s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.394s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74609a4b6ff0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74609a4b6ba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74609a4b6ba0>>, mixin_verb=('build',))
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.514s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/robot_arm_ws'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ros'
+[0.600s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_moveit_config' with type 'ros.ament_cmake' and name 'arm_moveit_config'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent) by extension 'python_setup_py'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/micro_ros_agent) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/hooks) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_agent/snap/local) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm' with type 'ros.ament_cmake' and name 'robot_arm'
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.687s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/user/robot_arm_ws/install
+[0.694s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 72 installed packages in /home/user/ws_moveit/install
+[0.699s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 423 installed packages in /opt/ros/jazzy
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/robot_arm_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/robot_arm_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/user/robot_arm_ws/src/micro_ros_agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_target' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.938s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/robot_arm_ws/build/robot_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/robot_arm_ws/install/robot_arm', 'merge_install': False, 'path': '/home/user/robot_arm_ws/src/robot_arm', 'symlink_install': False, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'arm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.940s] DEBUG:colcon.colcon_core.verb:Building package 'arm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/robot_arm_ws/build/arm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/robot_arm_ws/install/arm_moveit_config', 'merge_install': False, 'path': '/home/user/robot_arm_ws/src/arm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.940s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.941s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.942s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/robot_arm_ws/src/robot_arm' with build type 'ament_cmake'
+[0.942s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/robot_arm_ws/src/robot_arm'
+[0.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/robot_arm_ws/src/micro_ros_agent/micro_ros_agent' with build type 'ament_cmake'
+[0.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/robot_arm_ws/src/micro_ros_agent/micro_ros_agent'
+[0.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/robot_arm_ws/src/micro_ros_agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/user/robot_arm_ws/install/micro_ros_agent
+[2.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm
+[2.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/robot_arm_ws/src/micro_ros_agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/user/robot_arm_ws/install/micro_ros_agent
+[2.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/micro_ros_agent -- -j16 -l16
+[2.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm)
+[2.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm
+[2.791s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm' for CMake module files
+[2.792s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm' for CMake config files
+[2.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm', 'cmake_prefix_path')
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/cmake_prefix_path.ps1'
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/cmake_prefix_path.dsv'
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/cmake_prefix_path.sh'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/lib'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/lib/pkgconfig/robot_arm.pc'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages'
+[2.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm', 'pythonpath')
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/pythonpath.ps1'
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/pythonpath.dsv'
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/pythonpath.sh'
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/bin'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.ps1'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.dsv'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.sh'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.bash'
+[2.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.zsh'
+[2.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/robot_arm_ws/install/robot_arm/share/colcon-core/packages/robot_arm)
+[2.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm)
+[2.827s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm' for CMake module files
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm' for CMake config files
+[2.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm', 'cmake_prefix_path')
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/cmake_prefix_path.ps1'
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/cmake_prefix_path.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/cmake_prefix_path.sh'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/lib'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/bin'
+[2.834s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/lib/pkgconfig/robot_arm.pc'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages'
+[2.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm', 'pythonpath')
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/pythonpath.ps1'
+[2.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/pythonpath.dsv'
+[2.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/hook/pythonpath.sh'
+[2.840s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/robot_arm/bin'
+[2.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.ps1'
+[2.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.dsv'
+[2.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.sh'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.bash'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.zsh'
+[2.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/robot_arm_ws/install/robot_arm/share/colcon-core/packages/robot_arm)
+[2.846s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/robot_arm_ws/src/arm_moveit_config' with build type 'ament_cmake'
+[2.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/robot_arm_ws/src/arm_moveit_config'
+[2.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/arm_moveit_config': CMAKE_PREFIX_PATH=/home/user/robot_arm_ws/install/robot_arm:/home/user/robot_arm_ws/install/arm_moveit_config:/home/user/ws_moveit/install/robotiq_hardware_tests:/home/user/ws_moveit/install/robotiq_driver:/home/user/ws_moveit/install/serial:/home/user/ws_moveit/install/moveit2_tutorials:/home/user/ws_moveit/install/moveit_visual_tools:/home/user/ws_moveit/install/rviz_visual_tools:/home/user/ws_moveit/install/moveit_task_constructor_visualization:/home/user/ws_moveit/install/moveit_task_constructor_demo:/home/user/ws_moveit/install/moveit_task_constructor_capabilities:/home/user/ws_moveit/install/moveit_task_constructor_core:/home/user/ws_moveit/install/rviz_marker_tools:/home/user/ws_moveit/install/kortex_bringup:/home/user/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/user/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kortex_description:/home/user/ws_moveit/install/robotiq_description:/home/user/ws_moveit/install/robotiq_controllers:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/user/ws_moveit/install/moveit_runtime:/home/user/ws_moveit/install/moveit:/home/user/ws_moveit/install/moveit_planners:/home/user/ws_moveit/install/pilz_industrial_motion_planner:/home/user/ws_moveit/install/picknik_twist_controller:/home/user/ws_moveit/install/picknik_reset_fault_controller:/home/user/ws_moveit/install/moveit_task_constructor_msgs:/home/user/ws_moveit/install/moveit_ros_control_interface:/home/user/ws_moveit/install/moveit_plugins:/home/user/ws_moveit/install/moveit_simple_controller_manager:/home/user/ws_moveit/install/moveit_setup_assistant:/home/user/ws_moveit/install/moveit_setup_srdf_plugins:/home/user/ws_moveit/install/moveit_setup_core_plugins:/home/user/ws_moveit/install/moveit_setup_controllers:/home/user/ws_moveit/install/moveit_setup_app_plugins:/home/user/ws_moveit/install/moveit_setup_framework:/home/user/ws_moveit/install/moveit_servo:/home/user/ws_moveit/install/moveit_ros_trajectory_cache:/home/user/ws_moveit/install/moveit_ros:/home/user/ws_moveit/install/moveit_ros_visualization:/home/user/ws_moveit/install/moveit_py:/home/user/ws_moveit/install/moveit_hybrid_planning:/home/user/ws_moveit/install/moveit_ros_planning_interface:/home/user/ws_moveit/install/moveit_ros_benchmarks:/home/user/ws_moveit/install/moveit_ros_warehouse:/home/user/ws_moveit/install/moveit_ros_robot_interaction:/home/user/ws_moveit/install/moveit_ros_perception:/home/user/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/user/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/user/ws_moveit/install/moveit_ros_move_group:/home/user/ws_moveit/install/moveit_planners_ompl:/home/user/ws_moveit/install/moveit_kinematics:/home/user/ws_moveit/install/moveit_ros_planning:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/user/ws_moveit/install/moveit_resources_prbt_support:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ws_moveit/install/moveit_resources:/home/user/ws_moveit/install/moveit_resources_pr2_description:/home/user/ws_moveit/install/moveit_resources_panda_moveit_config:/home/user/ws_moveit/install/dual_arm_panda_moveit_config:/home/user/ws_moveit/install/moveit_resources_panda_description:/home/user/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/user/ws_moveit/install/moveit_resources_fanuc_description:/home/user/ws_moveit/install/moveit_planners_stomp:/home/user/ws_moveit/install/moveit_planners_chomp:/home/user/ws_moveit/install/chomp_motion_planner:/home/user/ws_moveit/install/moveit_core:/home/user/ws_moveit/install/moveit_msgs:/home/user/ws_moveit/install/moveit_common:/home/user/ws_moveit/install/kortex_driver:/home/user/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/arm_moveit_config -- -j16 -l16
+[3.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/robot_arm_ws/install/robot_arm:/home/user/robot_arm_ws/install/arm_moveit_config:/home/user/ws_moveit/install/robotiq_hardware_tests:/home/user/ws_moveit/install/robotiq_driver:/home/user/ws_moveit/install/serial:/home/user/ws_moveit/install/moveit2_tutorials:/home/user/ws_moveit/install/moveit_visual_tools:/home/user/ws_moveit/install/rviz_visual_tools:/home/user/ws_moveit/install/moveit_task_constructor_visualization:/home/user/ws_moveit/install/moveit_task_constructor_demo:/home/user/ws_moveit/install/moveit_task_constructor_capabilities:/home/user/ws_moveit/install/moveit_task_constructor_core:/home/user/ws_moveit/install/rviz_marker_tools:/home/user/ws_moveit/install/kortex_bringup:/home/user/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/user/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kortex_description:/home/user/ws_moveit/install/robotiq_description:/home/user/ws_moveit/install/robotiq_controllers:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/user/ws_moveit/install/moveit_runtime:/home/user/ws_moveit/install/moveit:/home/user/ws_moveit/install/moveit_planners:/home/user/ws_moveit/install/pilz_industrial_motion_planner:/home/user/ws_moveit/install/picknik_twist_controller:/home/user/ws_moveit/install/picknik_reset_fault_controller:/home/user/ws_moveit/install/moveit_task_constructor_msgs:/home/user/ws_moveit/install/moveit_ros_control_interface:/home/user/ws_moveit/install/moveit_plugins:/home/user/ws_moveit/install/moveit_simple_controller_manager:/home/user/ws_moveit/install/moveit_setup_assistant:/home/user/ws_moveit/install/moveit_setup_srdf_plugins:/home/user/ws_moveit/install/moveit_setup_core_plugins:/home/user/ws_moveit/install/moveit_setup_controllers:/home/user/ws_moveit/install/moveit_setup_app_plugins:/home/user/ws_moveit/install/moveit_setup_framework:/home/user/ws_moveit/install/moveit_servo:/home/user/ws_moveit/install/moveit_ros_trajectory_cache:/home/user/ws_moveit/install/moveit_ros:/home/user/ws_moveit/install/moveit_ros_visualization:/home/user/ws_moveit/install/moveit_py:/home/user/ws_moveit/install/moveit_hybrid_planning:/home/user/ws_moveit/install/moveit_ros_planning_interface:/home/user/ws_moveit/install/moveit_ros_benchmarks:/home/user/ws_moveit/install/moveit_ros_warehouse:/home/user/ws_moveit/install/moveit_ros_robot_interaction:/home/user/ws_moveit/install/moveit_ros_perception:/home/user/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/user/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/user/ws_moveit/install/moveit_ros_move_group:/home/user/ws_moveit/install/moveit_planners_ompl:/home/user/ws_moveit/install/moveit_kinematics:/home/user/ws_moveit/install/moveit_ros_planning:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/user/ws_moveit/install/moveit_resources_prbt_support:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ws_moveit/install/moveit_resources:/home/user/ws_moveit/install/moveit_resources_pr2_description:/home/user/ws_moveit/install/moveit_resources_panda_moveit_config:/home/user/ws_moveit/install/dual_arm_panda_moveit_config:/home/user/ws_moveit/install/moveit_resources_panda_description:/home/user/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/user/ws_moveit/install/moveit_resources_fanuc_description:/home/user/ws_moveit/install/moveit_planners_stomp:/home/user/ws_moveit/install/moveit_planners_chomp:/home/user/ws_moveit/install/chomp_motion_planner:/home/user/ws_moveit/install/moveit_core:/home/user/ws_moveit/install/moveit_msgs:/home/user/ws_moveit/install/moveit_common:/home/user/ws_moveit/install/kortex_driver:/home/user/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/arm_moveit_config -- -j16 -l16
+[3.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/arm_moveit_config': CMAKE_PREFIX_PATH=/home/user/robot_arm_ws/install/robot_arm:/home/user/robot_arm_ws/install/arm_moveit_config:/home/user/ws_moveit/install/robotiq_hardware_tests:/home/user/ws_moveit/install/robotiq_driver:/home/user/ws_moveit/install/serial:/home/user/ws_moveit/install/moveit2_tutorials:/home/user/ws_moveit/install/moveit_visual_tools:/home/user/ws_moveit/install/rviz_visual_tools:/home/user/ws_moveit/install/moveit_task_constructor_visualization:/home/user/ws_moveit/install/moveit_task_constructor_demo:/home/user/ws_moveit/install/moveit_task_constructor_capabilities:/home/user/ws_moveit/install/moveit_task_constructor_core:/home/user/ws_moveit/install/rviz_marker_tools:/home/user/ws_moveit/install/kortex_bringup:/home/user/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/user/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kortex_description:/home/user/ws_moveit/install/robotiq_description:/home/user/ws_moveit/install/robotiq_controllers:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/user/ws_moveit/install/moveit_runtime:/home/user/ws_moveit/install/moveit:/home/user/ws_moveit/install/moveit_planners:/home/user/ws_moveit/install/pilz_industrial_motion_planner:/home/user/ws_moveit/install/picknik_twist_controller:/home/user/ws_moveit/install/picknik_reset_fault_controller:/home/user/ws_moveit/install/moveit_task_constructor_msgs:/home/user/ws_moveit/install/moveit_ros_control_interface:/home/user/ws_moveit/install/moveit_plugins:/home/user/ws_moveit/install/moveit_simple_controller_manager:/home/user/ws_moveit/install/moveit_setup_assistant:/home/user/ws_moveit/install/moveit_setup_srdf_plugins:/home/user/ws_moveit/install/moveit_setup_core_plugins:/home/user/ws_moveit/install/moveit_setup_controllers:/home/user/ws_moveit/install/moveit_setup_app_plugins:/home/user/ws_moveit/install/moveit_setup_framework:/home/user/ws_moveit/install/moveit_servo:/home/user/ws_moveit/install/moveit_ros_trajectory_cache:/home/user/ws_moveit/install/moveit_ros:/home/user/ws_moveit/install/moveit_ros_visualization:/home/user/ws_moveit/install/moveit_py:/home/user/ws_moveit/install/moveit_hybrid_planning:/home/user/ws_moveit/install/moveit_ros_planning_interface:/home/user/ws_moveit/install/moveit_ros_benchmarks:/home/user/ws_moveit/install/moveit_ros_warehouse:/home/user/ws_moveit/install/moveit_ros_robot_interaction:/home/user/ws_moveit/install/moveit_ros_perception:/home/user/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/user/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/user/ws_moveit/install/moveit_ros_move_group:/home/user/ws_moveit/install/moveit_planners_ompl:/home/user/ws_moveit/install/moveit_kinematics:/home/user/ws_moveit/install/moveit_ros_planning:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/user/ws_moveit/install/moveit_resources_prbt_support:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ws_moveit/install/moveit_resources:/home/user/ws_moveit/install/moveit_resources_pr2_description:/home/user/ws_moveit/install/moveit_resources_panda_moveit_config:/home/user/ws_moveit/install/dual_arm_panda_moveit_config:/home/user/ws_moveit/install/moveit_resources_panda_description:/home/user/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/user/ws_moveit/install/moveit_resources_fanuc_description:/home/user/ws_moveit/install/moveit_planners_stomp:/home/user/ws_moveit/install/moveit_planners_chomp:/home/user/ws_moveit/install/chomp_motion_planner:/home/user/ws_moveit/install/moveit_core:/home/user/ws_moveit/install/moveit_msgs:/home/user/ws_moveit/install/moveit_common:/home/user/ws_moveit/install/kortex_driver:/home/user/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/arm_moveit_config
+[3.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_moveit_config)
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config' for CMake module files
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config' for CMake config files
+[3.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_moveit_config', 'cmake_prefix_path')
+[3.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.ps1'
+[3.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/robot_arm_ws/install/robot_arm:/home/user/robot_arm_ws/install/arm_moveit_config:/home/user/ws_moveit/install/robotiq_hardware_tests:/home/user/ws_moveit/install/robotiq_driver:/home/user/ws_moveit/install/serial:/home/user/ws_moveit/install/moveit2_tutorials:/home/user/ws_moveit/install/moveit_visual_tools:/home/user/ws_moveit/install/rviz_visual_tools:/home/user/ws_moveit/install/moveit_task_constructor_visualization:/home/user/ws_moveit/install/moveit_task_constructor_demo:/home/user/ws_moveit/install/moveit_task_constructor_capabilities:/home/user/ws_moveit/install/moveit_task_constructor_core:/home/user/ws_moveit/install/rviz_marker_tools:/home/user/ws_moveit/install/kortex_bringup:/home/user/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/user/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kortex_description:/home/user/ws_moveit/install/robotiq_description:/home/user/ws_moveit/install/robotiq_controllers:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/user/ws_moveit/install/moveit_runtime:/home/user/ws_moveit/install/moveit:/home/user/ws_moveit/install/moveit_planners:/home/user/ws_moveit/install/pilz_industrial_motion_planner:/home/user/ws_moveit/install/picknik_twist_controller:/home/user/ws_moveit/install/picknik_reset_fault_controller:/home/user/ws_moveit/install/moveit_task_constructor_msgs:/home/user/ws_moveit/install/moveit_ros_control_interface:/home/user/ws_moveit/install/moveit_plugins:/home/user/ws_moveit/install/moveit_simple_controller_manager:/home/user/ws_moveit/install/moveit_setup_assistant:/home/user/ws_moveit/install/moveit_setup_srdf_plugins:/home/user/ws_moveit/install/moveit_setup_core_plugins:/home/user/ws_moveit/install/moveit_setup_controllers:/home/user/ws_moveit/install/moveit_setup_app_plugins:/home/user/ws_moveit/install/moveit_setup_framework:/home/user/ws_moveit/install/moveit_servo:/home/user/ws_moveit/install/moveit_ros_trajectory_cache:/home/user/ws_moveit/install/moveit_ros:/home/user/ws_moveit/install/moveit_ros_visualization:/home/user/ws_moveit/install/moveit_py:/home/user/ws_moveit/install/moveit_hybrid_planning:/home/user/ws_moveit/install/moveit_ros_planning_interface:/home/user/ws_moveit/install/moveit_ros_benchmarks:/home/user/ws_moveit/install/moveit_ros_warehouse:/home/user/ws_moveit/install/moveit_ros_robot_interaction:/home/user/ws_moveit/install/moveit_ros_perception:/home/user/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/user/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/user/ws_moveit/install/moveit_ros_move_group:/home/user/ws_moveit/install/moveit_planners_ompl:/home/user/ws_moveit/install/moveit_kinematics:/home/user/ws_moveit/install/moveit_ros_planning:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/user/ws_moveit/install/moveit_resources_prbt_support:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ws_moveit/install/moveit_resources:/home/user/ws_moveit/install/moveit_resources_pr2_description:/home/user/ws_moveit/install/moveit_resources_panda_moveit_config:/home/user/ws_moveit/install/dual_arm_panda_moveit_config:/home/user/ws_moveit/install/moveit_resources_panda_description:/home/user/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/user/ws_moveit/install/moveit_resources_fanuc_description:/home/user/ws_moveit/install/moveit_planners_stomp:/home/user/ws_moveit/install/moveit_planners_chomp:/home/user/ws_moveit/install/chomp_motion_planner:/home/user/ws_moveit/install/moveit_core:/home/user/ws_moveit/install/moveit_msgs:/home/user/ws_moveit/install/moveit_common:/home/user/ws_moveit/install/kortex_driver:/home/user/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/arm_moveit_config
+[3.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.dsv'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.sh'
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/bin'
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/lib/pkgconfig/arm_moveit_config.pc'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/lib/python3.12/site-packages'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/bin'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.dsv'
+[3.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.sh'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.bash'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.zsh'
+[3.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/robot_arm_ws/install/arm_moveit_config/share/colcon-core/packages/arm_moveit_config)
+[3.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_moveit_config)
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config' for CMake module files
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config' for CMake config files
+[3.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_moveit_config', 'cmake_prefix_path')
+[3.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.dsv'
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/hook/cmake_prefix_path.sh'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/bin'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/lib/pkgconfig/arm_moveit_config.pc'
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/lib/python3.12/site-packages'
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/arm_moveit_config/bin'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.ps1'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.dsv'
+[3.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.sh'
+[3.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.bash'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.zsh'
+[3.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/robot_arm_ws/install/arm_moveit_config/share/colcon-core/packages/arm_moveit_config)
+[304.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/micro_ros_agent -- -j16 -l16
+[304.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/robot_arm_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/micro_ros_agent
+[304.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[304.715s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent' for CMake module files
+[304.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/robot_arm_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/micro_ros_agent
+[304.718s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent' for CMake config files
+[304.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[304.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[304.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[304.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[304.726s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/lib'
+[304.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[304.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[304.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[304.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[304.729s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/bin'
+[304.729s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[304.730s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[304.731s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/bin'
+[304.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[304.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[304.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[304.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[304.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[304.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/robot_arm_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[304.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[304.736s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent' for CMake module files
+[304.737s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent' for CMake config files
+[304.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[304.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[304.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[304.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[304.742s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/lib'
+[304.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[304.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[304.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[304.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[304.745s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/bin'
+[304.745s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[304.746s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[304.746s] Level 1:colcon.colcon_core.environment:checking '/home/user/robot_arm_ws/install/micro_ros_agent/bin'
+[304.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[304.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[304.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[304.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[304.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[304.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/robot_arm_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[304.754s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[304.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[304.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[304.755s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[304.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[304.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[304.771s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[304.816s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[304.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/robot_arm_ws/install/local_setup.ps1'
+[304.819s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/robot_arm_ws/install/_local_setup_util_ps1.py'
+[304.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/robot_arm_ws/install/setup.ps1'
+[304.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/robot_arm_ws/install/local_setup.sh'
+[304.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/robot_arm_ws/install/_local_setup_util_sh.py'
+[304.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/robot_arm_ws/install/setup.sh'
+[304.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/robot_arm_ws/install/local_setup.bash'
+[304.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/robot_arm_ws/install/setup.bash'
+[304.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/robot_arm_ws/install/local_setup.zsh'
+[304.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/robot_arm_ws/install/setup.zsh'

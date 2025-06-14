@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/my_arm_sim/my_arm_sim.egg-info
+writing ../../build/my_arm_sim/my_arm_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_arm_sim/my_arm_sim.egg-info/dependency_links.txt
+writing requirements to ../../build/my_arm_sim/my_arm_sim.egg-info/requires.txt
+writing top-level names to ../../build/my_arm_sim/my_arm_sim.egg-info/top_level.txt
+writing manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/robot_arm_ws/build/my_arm_sim/build
+creating /home/user/robot_arm_ws/build/my_arm_sim/build/lib
+creating /home/user/robot_arm_ws/build/my_arm_sim/build/lib/my_arm_sim
+copying my_arm_sim/square_ik_node.py -> /home/user/robot_arm_ws/build/my_arm_sim/build/lib/my_arm_sim
+copying my_arm_sim/__init__.py -> /home/user/robot_arm_ws/build/my_arm_sim/build/lib/my_arm_sim
+running install
+running install_lib
+creating /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim
+copying /home/user/robot_arm_ws/build/my_arm_sim/build/lib/my_arm_sim/square_ik_node.py -> /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim
+copying /home/user/robot_arm_ws/build/my_arm_sim/build/lib/my_arm_sim/__init__.py -> /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim
+byte-compiling /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim/square_ik_node.py to square_ik_node.cpython-312.pyc
+byte-compiling /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/user/robot_arm_ws/install/my_arm_sim/share/ament_index
+creating /home/user/robot_arm_ws/install/my_arm_sim/share/ament_index/resource_index
+creating /home/user/robot_arm_ws/install/my_arm_sim/share/ament_index/resource_index/packages
+copying resource/my_arm_sim -> /home/user/robot_arm_ws/install/my_arm_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/robot_arm_ws/install/my_arm_sim/share/my_arm_sim
+running install_egg_info
+Copying ../../build/my_arm_sim/my_arm_sim.egg-info to /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/user/robot_arm_ws/build/my_arm_sim/install.log'

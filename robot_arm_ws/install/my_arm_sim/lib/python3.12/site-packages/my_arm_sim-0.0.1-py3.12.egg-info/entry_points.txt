@@ -1,0 +1,3 @@
+[console_scripts]
+joint_array_splitter = my_arm_sim.joint_array_splitter:main
+square_ik_node = my_arm_sim.square_ik_node:main

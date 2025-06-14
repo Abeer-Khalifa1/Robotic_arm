@@ -1,0 +1,22 @@
+[1.214s] Invoking command in '/home/user/robot_arm_ws/src/my_arm_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/robot_arm_ws/build/my_arm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_arm_sim build --build-base /home/user/robot_arm_ws/build/my_arm_sim/build install --record /home/user/robot_arm_ws/build/my_arm_sim/install.log --single-version-externally-managed install_data
+[1.592s] running egg_info
+[1.624s] writing ../../build/my_arm_sim/my_arm_sim.egg-info/PKG-INFO
+[1.624s] writing dependency_links to ../../build/my_arm_sim/my_arm_sim.egg-info/dependency_links.txt
+[1.625s] writing entry points to ../../build/my_arm_sim/my_arm_sim.egg-info/entry_points.txt
+[1.625s] writing requirements to ../../build/my_arm_sim/my_arm_sim.egg-info/requires.txt
+[1.625s] writing top-level names to ../../build/my_arm_sim/my_arm_sim.egg-info/top_level.txt
+[1.688s] reading manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+[1.689s] writing manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+[1.689s] running build
+[1.689s] running build_py
+[1.690s] running install
+[1.697s] running install_lib
+[1.729s] running install_data
+[1.730s] running install_egg_info
+[1.764s] removing '/home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim-0.0.1-py3.12.egg-info' (and everything under it)
+[1.765s] Copying ../../build/my_arm_sim/my_arm_sim.egg-info to /home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim-0.0.1-py3.12.egg-info
+[1.766s] running install_scripts
+[1.968s] Installing joint_array_splitter script to /home/user/robot_arm_ws/install/my_arm_sim/lib/my_arm_sim
+[1.968s] Installing square_ik_node script to /home/user/robot_arm_ws/install/my_arm_sim/lib/my_arm_sim
+[1.969s] writing list of installed files to '/home/user/robot_arm_ws/build/my_arm_sim/install.log'
+[2.041s] Invoked command in '/home/user/robot_arm_ws/src/my_arm_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/robot_arm_ws/build/my_arm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/robot_arm_ws/install/my_arm_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_arm_sim build --build-base /home/user/robot_arm_ws/build/my_arm_sim/build install --record /home/user/robot_arm_ws/build/my_arm_sim/install.log --single-version-externally-managed install_data

@@ -1,0 +1,67 @@
+[0.023s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.147s] Built target ament_cmake_python_copy_robot_arm
+[0.472s] running egg_info
+[0.503s] writing robot_arm.egg-info/PKG-INFO
+[0.503s] writing dependency_links to robot_arm.egg-info/dependency_links.txt
+[0.503s] writing top-level names to robot_arm.egg-info/top_level.txt
+[0.593s] reading manifest file 'robot_arm.egg-info/SOURCES.txt'
+[0.594s] writing manifest file 'robot_arm.egg-info/SOURCES.txt'
+[0.626s] Built target ament_cmake_python_build_robot_arm_egg
+[0.642s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.644s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm
+[0.662s] -- Install configuration: ""
+[0.662s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch/sim_control.launch.py
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch/joint_array_splitter.py
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch/code_run.launch.py
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf.xacro
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.csv
+[0.663s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/config
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/config/trajectory_controllers.yaml
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/config/bridge.yaml
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/config/controllers.yaml
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_4.stl
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_2.stl
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_1.stl
+[0.664s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_2.stl
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/Link_3.stl
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_link.stl
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/models
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/models/Robot_arm.sdf
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/worlds
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/worlds/world_demo.sdf
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/robot_arm
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/robot_arm/__init__.py
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/robot_arm/joint_array_splitter.py
+[0.665s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/robot_arm/square_ik_node.py
+[0.666s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/pythonpath.sh
+[0.666s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/pythonpath.dsv
+[0.666s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info
+[0.666s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info/PKG-INFO
+[0.666s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.666s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info/top_level.txt
+[0.666s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.666s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm
+[0.666s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/__init__.py
+[0.666s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/joint_array_splitter.py
+[0.667s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/square_ik_node.py
+[0.738s] Listing '/home/user/robot_arm_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm'...
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.sh
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.dsv
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.sh
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.dsv
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.bash
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.sh
+[0.744s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.zsh
+[0.745s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.dsv
+[0.745s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.dsv
+[0.745s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/packages/robot_arm
+[0.745s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig.cmake
+[0.745s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig-version.cmake
+[0.745s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.xml
+[0.747s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm

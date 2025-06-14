@@ -1,0 +1,50 @@
+[0.017s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.059s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.404s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.439s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.447s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.447s] -- Found rviz2: 14.1.10 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.448s] -- Found ros_gz_sim: 1.0.11 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[0.472s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.481s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.571s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.576s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.593s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.602s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.622s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.630s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.709s] -- Found ros2_control: 4.28.1 (/opt/ros/jazzy/share/ros2_control/cmake)
+[0.709s] -- Found ros2_controllers: 4.23.0 (/opt/ros/jazzy/share/ros2_controllers/cmake)
+[0.710s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.807s] Error parsing '/home/user/robot_arm_ws/src/robot_arm/package.xml':
+[1.897s] Traceback (most recent call last):
+[1.897s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.897s]     main()
+[1.897s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.897s]     raise e
+[1.897s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.898s]     package = parse_package_string(
+[1.898s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.898s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.898s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.898s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/user/robot_arm_ws/src/robot_arm/package.xml':
+[1.898s] Error(s):
+[1.898s] - The generic dependency on 'robot_state_publisher' is redundant with: build_depend, build_export_depend, exec_depend
+[1.935s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.935s]   execute_process(/usr/bin/python3
+[1.935s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.935s]   /home/user/robot_arm_ws/src/robot_arm/package.xml
+[1.936s]   /home/user/robot_arm_ws/build/robot_arm/ament_cmake_core/package.cmake)
+[1.936s]   returned error code 1
+[1.936s] Call Stack (most recent call first):
+[1.936s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.936s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.936s]   CMakeLists.txt:45 (ament_lint_auto_find_test_dependencies)
+[1.936s] 
+[1.936s] [0m
+[1.936s] -- Configuring incomplete, errors occurred!
+[1.944s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.947s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16

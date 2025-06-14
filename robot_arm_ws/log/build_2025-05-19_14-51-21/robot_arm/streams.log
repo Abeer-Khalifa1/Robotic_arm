@@ -1,0 +1,42 @@
+[0.018s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.057s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.409s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.458s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.572s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.710s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.710s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.766s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.866s] Error parsing '/home/user/robot_arm_ws/src/robot_arm/package.xml':
+[1.990s] Traceback (most recent call last):
+[1.990s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.990s]     main()
+[1.990s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.990s]     raise e
+[1.990s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.990s]     package = parse_package_string(
+[1.990s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.990s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.990s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.990s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/user/robot_arm_ws/src/robot_arm/package.xml':
+[1.991s] Error(s):
+[1.991s] - The generic dependency on 'robot_state_publisher' is redundant with: build_depend, build_export_depend, exec_depend
+[2.031s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.031s]   execute_process(/usr/bin/python3
+[2.031s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.031s]   /home/user/robot_arm_ws/src/robot_arm/package.xml
+[2.031s]   /home/user/robot_arm_ws/build/robot_arm/ament_cmake_core/package.cmake)
+[2.031s]   returned error code 1
+[2.031s] Call Stack (most recent call first):
+[2.031s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.031s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.031s]   CMakeLists.txt:29 (ament_lint_auto_find_test_dependencies)
+[2.031s] 
+[2.031s] [0m
+[2.031s] -- Configuring incomplete, errors occurred!
+[2.040s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.042s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16

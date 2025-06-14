@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/robot_arm_ws/src/robot_arm -DCMAKE_INSTALL_PREFIX=/home/user/robot_arm_ws/install/robot_arm
+[0.051s] -- The C compiler identification is GNU 13.3.0
+[0.093s] -- The CXX compiler identification is GNU 13.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.477s] -- Found urdf_tutorial: 1.1.0 (/opt/ros/jazzy/share/urdf_tutorial/cmake)
+[0.478s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.563s] -- Added test 'lint_cmake' to check CMake code style
+[0.564s] -- Added test 'xmllint' to check XML markup files
+[0.565s] -- Configuring done (0.5s)
+[0.567s] -- Generating done (0.0s)
+[0.568s] -- Build files have been written to: /home/user/robot_arm_ws/build/robot_arm
+[0.575s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/robot_arm_ws/src/robot_arm -DCMAKE_INSTALL_PREFIX=/home/user/robot_arm_ws/install/robot_arm
+[0.575s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.608s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.617s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm
+[0.623s] -- Install configuration: ""
+[0.623s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes
+[0.624s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_2.STL
+[0.624s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_2.STL
+[0.624s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_4.STL
+[0.625s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_link.STL
+[0.625s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_1.STL
+[0.625s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/Link_3.STL
+[0.625s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf
+[0.625s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.csv
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.sh
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.dsv
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.sh
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.dsv
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.bash
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.sh
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.zsh
+[0.626s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.dsv
+[0.627s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.dsv
+[0.627s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/packages/robot_arm
+[0.627s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig.cmake
+[0.627s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig-version.cmake
+[0.627s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.xml
+[0.628s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm

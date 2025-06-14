@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/robot_arm/robot_arm.egg-info
+writing ../../build/robot_arm/robot_arm.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_arm/robot_arm.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_arm/robot_arm.egg-info/entry_points.txt
+writing requirements to ../../build/robot_arm/robot_arm.egg-info/requires.txt
+writing top-level names to ../../build/robot_arm/robot_arm.egg-info/top_level.txt
+writing manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'

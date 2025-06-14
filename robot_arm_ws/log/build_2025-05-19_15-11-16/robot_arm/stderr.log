@@ -1,0 +1,10 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+  ament_python_install_package() the Python package folder
+  '/home/user/robot_arm_ws/src/robot_arm/robot_arm' doesn't contain an
+  '__init__.py' file
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:31 (ament_python_install_package)
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

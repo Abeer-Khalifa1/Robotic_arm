@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-arm-sim
+Version: 0.0.1
+Summary: ROS 2 package for robotic arm simulation
+Maintainer: Your Name
+Maintainer-email: your@email.com
+License: Apache-2.0

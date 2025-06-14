@@ -1,0 +1,49 @@
+# Joint States (Gazebo → ROS 2)
+- ros_topic_name: "/joint_states"
+  gz_topic_name: "/world/world_demo/joint_state"
+  ros_type_name: "sensor_msgs/msg/JointState"
+  gz_type_name: "gz.msgs.Model"
+ 
+# Velocity Control (ROS 2 → Gazebo)
+- ros_topic_name: "/cmd_vel"
+  gz_topic_name: "/model/Robot_arm/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+
+# TF (Bidirectional)
+- ros_topic_name: "/tf"
+  gz_topic_name: "/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+ 
+# Camera (Gazebo → ROS 2) 
+- ros_topic_name: "/camera/image_raw"
+  gz_topic_name: "/world/default/model/Robot_arm/sensor/camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+
+# Joint Position Control (ROS 2 → Gazebo)
+- ros_topic_name: "/joint_0/position_cmd"
+  gz_topic_name: "/model/Robot_arm/joint/joint_0/position_cmd"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+
+- ros_topic_name: "/joint_1/position_cmd"
+  gz_topic_name: "/model/Robot_arm/joint/joint_1/position_cmd"  # Fixed typo (joint_1)
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+
+- ros_topic_name: "/joint_2/position_cmd"
+  gz_topic_name: "/model/Robot_arm/joint/joint_2/position_cmd"  # Fixed (was joint_1)
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+
+- ros_topic_name: "/joint_3/position_cmd"
+  gz_topic_name: "/model/Robot_arm/joint/joint_3/position_cmd"  # Fixed (was joint_1)
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+
+- ros_topic_name: "/joint_4/position_cmd"
+  gz_topic_name: "/model/Robot_arm/joint/joint_4/position_cmd"  # Fixed (was joint_1)
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"

@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog-complete.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-build.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-download.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-install.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/home/user/robot_arm_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-update.rule

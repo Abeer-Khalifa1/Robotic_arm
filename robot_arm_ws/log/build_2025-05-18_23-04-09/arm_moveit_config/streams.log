@@ -1,0 +1,33 @@
+[0.016s] Invoking command in '/home/user/robot_arm_ws/build/arm_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/arm_moveit_config -- -j16 -l16
+[0.054s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] Error parsing '/home/user/robot_arm_ws/src/arm_moveit_config/package.xml':
+[1.434s] Traceback (most recent call last):
+[1.434s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.434s]     main()
+[1.434s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.434s]     raise e
+[1.434s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.434s]     package = parse_package_string(
+[1.434s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.434s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 719, in parse_package_string
+[1.434s]     export_node = _get_optional_node(root, 'export', filename)
+[1.434s]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.434s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 807, in _get_optional_node
+[1.435s]     raise InvalidPackage('The manifest must not contain more than one "%s" tags' % tagname, filename)
+[1.435s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/user/robot_arm_ws/src/arm_moveit_config/package.xml':
+[1.435s] The manifest must not contain more than one "export" tags
+[1.478s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.478s]   execute_process(/usr/bin/python3
+[1.478s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.479s]   /home/user/robot_arm_ws/src/arm_moveit_config/package.xml
+[1.479s]   /home/user/robot_arm_ws/build/arm_moveit_config/ament_cmake_core/package.cmake)
+[1.479s]   returned error code 1
+[1.479s] Call Stack (most recent call first):
+[1.479s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.479s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.479s]   CMakeLists.txt:6 (ament_package)
+[1.479s] 
+[1.479s] [0m
+[1.479s] -- Configuring incomplete, errors occurred!
+[1.481s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.483s] Invoked command in '/home/user/robot_arm_ws/build/arm_moveit_config' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/arm_moveit_config -- -j16 -l16

@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.034s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.185s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.205s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.211s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.274s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.277s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.370s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.370s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.407s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.407s]   ament_target_dependencies() the first argument must be a valid target name
+[0.407s] Call Stack (most recent call first):
+[0.407s]   CMakeLists.txt:19 (ament_target_dependencies)
+[0.407s] 
+[0.407s] [0m
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.412s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.414s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16

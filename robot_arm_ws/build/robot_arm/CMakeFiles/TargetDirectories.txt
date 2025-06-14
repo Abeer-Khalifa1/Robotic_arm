@@ -1,0 +1,11 @@
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/uninstall.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/robot_arm_uninstall.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/ament_cmake_python_copy_robot_arm.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/ament_cmake_python_build_robot_arm_egg.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/test.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/edit_cache.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/rebuild_cache.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/list_install_components.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/install.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/install/local.dir
+/home/user/robot_arm_ws/build/robot_arm/CMakeFiles/install/strip.dir

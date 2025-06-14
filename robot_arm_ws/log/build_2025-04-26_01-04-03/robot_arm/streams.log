@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.042s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.232s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.233s]   By not providing "Findurdf_tutorial.cmake" in CMAKE_MODULE_PATH this
+[0.233s]   project has asked CMake to find a package configuration file provided by
+[0.233s]   "urdf_tutorial", but CMake did not find one.
+[0.233s] 
+[0.233s]   Could not find a package configuration file provided by "urdf_tutorial"
+[0.233s]   with any of the following names:
+[0.233s] 
+[0.233s]     urdf_tutorialConfig.cmake
+[0.233s]     urdf_tutorial-config.cmake
+[0.233s] 
+[0.233s]   Add the installation prefix of "urdf_tutorial" to CMAKE_PREFIX_PATH or set
+[0.233s]   "urdf_tutorial_DIR" to a directory containing one of the above files.  If
+[0.233s]   "urdf_tutorial" provides a separate development package or SDK, be sure it
+[0.233s]   has been installed.
+[0.233s] 
+[0.233s] [0m
+[0.233s] -- Configuring incomplete, errors occurred!
+[0.236s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.237s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16

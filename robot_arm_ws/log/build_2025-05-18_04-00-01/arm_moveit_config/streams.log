@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/user/robot_arm_ws/build/arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/robot_arm_ws/src/arm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/robot_arm_ws/install/arm_moveit_config
+[0.078s] -- The C compiler identification is GNU 13.3.0
+[0.131s] -- The CXX compiler identification is GNU 13.3.0
+[0.145s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.275s] -- Detecting C compile features
+[0.275s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.569s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.830s] -- Configuring done (0.8s)
+[0.833s] -- Generating done (0.0s)
+[0.834s] -- Build files have been written to: /home/user/robot_arm_ws/build/arm_moveit_config
+[0.840s] Invoked command in '/home/user/robot_arm_ws/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/robot_arm_ws/src/arm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/user/robot_arm_ws/install/arm_moveit_config
+[0.841s] Invoking command in '/home/user/robot_arm_ws/build/arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/arm_moveit_config -- -j16 -l16
+[0.900s] Invoked command in '/home/user/robot_arm_ws/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/arm_moveit_config -- -j16 -l16
+[0.901s] Invoking command in '/home/user/robot_arm_ws/build/arm_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/arm_moveit_config
+[0.914s] -- Install configuration: ""
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/arm_moveit_config
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/arm_moveit_config
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.sh
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.dsv
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/environment/path.sh
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/environment/path.dsv
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/local_setup.bash
+[0.914s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/local_setup.sh
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/local_setup.zsh
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/local_setup.dsv
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.dsv
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/ament_index/resource_index/packages/arm_moveit_config
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig.cmake
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig-version.cmake
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/package.xml
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/moveit_rviz.launch.py
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/spawn_controllers.launch.py
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/warehouse_db.launch.py
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/rsp.launch.py
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/demo.launch.py
+[0.915s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/setup_assistant.launch.py
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/launch/move_group.launch.py
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/moveit_controllers.yaml
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/kinematics.yaml
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/Robot_arm.ros2_control.xacro
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/Robot_arm.urdf.xacro
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/pilz_cartesian_limits.yaml
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/initial_positions.yaml
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/moveit.rviz
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/joint_limits.yaml
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/ros2_controllers.yaml
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/config/Robot_arm.srdf
+[0.916s] -- Installing: /home/user/robot_arm_ws/install/arm_moveit_config/share/arm_moveit_config/.setup_assistant
+[0.919s] Invoked command in '/home/user/robot_arm_ws/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/arm_moveit_config

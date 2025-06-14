@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/user/robot_arm_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/micro_ros_agent -- -j16 -l16
+[0.061s] [100%] Built target micro_ros_agent
+[0.070s] Invoked command in '/home/user/robot_arm_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/micro_ros_agent -- -j16 -l16
+[0.079s] Invoking command in '/home/user/robot_arm_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/micro_ros_agent
+[0.086s] -- Install configuration: ""
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[0.086s] -- Installing: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[0.086s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[0.087s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[0.087s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[0.087s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[0.087s] -- Up-to-date: /home/user/robot_arm_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[0.087s] Invoked command in '/home/user/robot_arm_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/robot_arm_ws/install/my_arm_sim:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/micro_ros_agent

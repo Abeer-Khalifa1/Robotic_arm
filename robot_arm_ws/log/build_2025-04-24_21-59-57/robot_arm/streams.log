@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.038s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.047s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_2.STL
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_2.STL
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_4.STL
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_link.STL
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_1.STL
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/Link_3.STL
+[0.054s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf
+[0.054s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.csv
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.dsv
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.sh
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.dsv
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.bash
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.sh
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.zsh
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.dsv
+[0.055s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.dsv
+[0.055s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/packages/robot_arm
+[0.056s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig.cmake
+[0.056s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig-version.cmake
+[0.056s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.xml
+[0.056s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm

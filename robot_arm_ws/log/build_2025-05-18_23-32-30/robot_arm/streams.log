@@ -1,0 +1,68 @@
+[0.015s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.050s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.212s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.228s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.231s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.231s] -- Found rviz2: 14.1.10 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.231s] -- Found ros_gz_sim: 1.0.11 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[0.244s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.250s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.319s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.331s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.339s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.353s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.360s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.377s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.430s] -- Found ros2_control: 4.28.1 (/opt/ros/jazzy/share/ros2_control/cmake)
+[0.430s] -- Found ros2_controllers: 4.23.0 (/opt/ros/jazzy/share/ros2_controllers/cmake)
+[0.430s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.504s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.504s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.505s] -- Added test 'lint_cmake' to check CMake code style
+[0.505s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.506s] -- Added test 'xmllint' to check XML markup files
+[0.508s] -- Configuring done (0.5s)
+[0.512s] -- Generating done (0.0s)
+[0.514s] -- Build files have been written to: /home/user/robot_arm_ws/build/robot_arm
+[0.542s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/robot_arm_ws/build/robot_arm -- -j16 -l16
+[0.552s] Invoking command in '/home/user/robot_arm_ws/build/robot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm
+[0.561s] -- Install configuration: ""
+[0.561s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes
+[0.561s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_4.stl
+[0.561s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_2.stl
+[0.561s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/link_1.stl
+[0.561s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/Link_3.stl
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_2.stl
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/meshes/base_link.stl
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf.xacro
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.csv
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch/sim_control.launch.py
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/launch/robot_spawner.launch.py
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.urdf.xacro
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/urdf/Robot_arm.csv
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/models
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/models/Robot_arm.sdf
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/package_run_dependencies/robot_arm
+[0.562s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/parent_prefix_path/robot_arm
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/ament_prefix_path.dsv
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.sh
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/environment/path.dsv
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.bash
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.sh
+[0.562s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.zsh
+[0.563s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/local_setup.dsv
+[0.563s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.dsv
+[0.563s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/ament_index/resource_index/packages/robot_arm
+[0.563s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig.cmake
+[0.563s] -- Up-to-date: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/cmake/robot_armConfig-version.cmake
+[0.563s] -- Installing: /home/user/robot_arm_ws/install/robot_arm/share/robot_arm/package.xml
+[0.563s] Invoked command in '/home/user/robot_arm_ws/build/robot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/robot_arm_ws/build/robot_arm

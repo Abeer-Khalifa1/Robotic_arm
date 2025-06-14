@@ -1,0 +1,8 @@
+setup.py
+robot_arm/__init__.py
+robot_arm/joint_array_splitter.py
+robot_arm/square_ik_node.py
+robot_arm.egg-info/PKG-INFO
+robot_arm.egg-info/SOURCES.txt
+robot_arm.egg-info/dependency_links.txt
+robot_arm.egg-info/top_level.txt

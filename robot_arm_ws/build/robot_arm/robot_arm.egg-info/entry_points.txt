@@ -1,0 +1,2 @@
+[console_scripts]
+square_ik_node = robot_arm.square_ik_node:main
